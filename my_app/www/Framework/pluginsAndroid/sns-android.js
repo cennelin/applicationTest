@@ -10,7 +10,7 @@ var __tmpConfig;
 
 var ShootnSend = {
     capture : function(success, fail, config){
-	return (cordova.exec(success, fail, "fr.blueapps.bluetech.newtech.PluginHandler", "launchShootnSend", [config]));
+	return (cordova.exec(success, fail, "com.phonegap.helloworld.PluginHandler", "launchShootnSend", [config]));
     }
 };
 
