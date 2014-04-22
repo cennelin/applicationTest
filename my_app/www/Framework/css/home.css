@@ -1,0 +1,31 @@
+/* CSS Document */
+
+#home {
+	background-color: #003b61;
+	width: 100%;
+    margin: auto;
+    background-position: center 0px;
+	padding: 0;
+	text-align:center;
+}
+
+#home_page1, #home_page2, #home_page3, #home_page4, #home_page5, #home_page6 {
+    display: inline-block;
+    margin:0 auto; /* si il s'agit du premier module de la page d'accueil on peut appliquer en plus un margin-top:Ypx pour dŽcaler en hauteur le bloc d'icones */ 
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 17px;
+	text-align:center;
+	width: 140px;
+    height: 120px;
+	vertical-align: top;
+}
+
+#home_page7 {
+    margin-top: 18px;
+	margin-left: 80%
+}
+
+#imageContainer {
+	width: 100%;	
+}
